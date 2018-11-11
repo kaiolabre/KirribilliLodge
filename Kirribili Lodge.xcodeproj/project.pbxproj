@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D18C30D2172DF8A009B63F0 /* SelfCheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18C30C2172DF8A009B63F0 /* SelfCheckInViewController.m */; };
+		2D39376F217182EE0070535D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39376E217182ED0070535D /* main.m */; };
+		2D39377521719BA30070535D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39377421719BA30070535D /* LoginViewController.m */; };
+		2D3937792171B4A50070535D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3937782171B4A50070535D /* HomeViewController.m */; };
+		2D799123217205E40052D9B7 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D799122217205E40052D9B7 /* PersonalInfoViewController.m */; };
+		2D79912621720FC10052D9B7 /* EditUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D79912521720FC10052D9B7 /* EditUserInfoViewController.m */; };
+		2D79912921722D040052D9B7 /* BookNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D79912821722D040052D9B7 /* BookNowViewController.m */; };
+		2DC50517213E0AF7005DEFEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC50516213E0AF7005DEFEB /* AppDelegate.m */; };
+		2DC5051A213E0AF7005DEFEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC50519213E0AF7005DEFEB /* ViewController.m */; };
+		2DC5051D213E0AF7005DEFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5051B213E0AF7005DEFEB /* Main.storyboard */; };
+		2DC5051F213E0AF9005DEFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5051E213E0AF9005DEFEB /* Assets.xcassets */; };
+		2DC50522213E0AF9005DEFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC50520213E0AF9005DEFEB /* LaunchScreen.storyboard */; };
+		2DC5052F213E0AF9005DEFEB /* Kirribili_LodgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5052E213E0AF9005DEFEB /* Kirribili_LodgeTests.m */; };
+		2DC5053A213E0AF9005DEFEB /* Kirribili_LodgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC50539213E0AF9005DEFEB /* Kirribili_LodgeUITests.m */; };
+		2DFF7A0521659D38000B2661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF7A0421659D38000B2661 /* GoogleService-Info.plist */; };
+		37389DF6506204777439C2FA /* libPods-Kirribili LodgeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEDE9401C747155BB56AC59 /* libPods-Kirribili LodgeTests.a */; };
+		DE4EDC1CE231536DD8D33945 /* libPods-Kirribili LodgeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE442D4F5C9D64CF6B318C4 /* libPods-Kirribili LodgeUITests.a */; };
+		FC06AFDB2AC5621AE776F1BF /* libPods-Kirribili Lodge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEF290B4F920059DF605300 /* libPods-Kirribili Lodge.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DC5052B213E0AF9005DEFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC5050A213E0AF6005DEFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC50511213E0AF6005DEFEB;
+			remoteInfo = "Kirribili Lodge";
+		};
+		2DC50536213E0AF9005DEFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC5050A213E0AF6005DEFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC50511213E0AF6005DEFEB;
+			remoteInfo = "Kirribili Lodge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE442D4F5C9D64CF6B318C4 /* libPods-Kirribili LodgeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kirribili LodgeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2497A5D448EE78948B84A67D /* Pods-Kirribili LodgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirribili LodgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kirribili LodgeTests/Pods-Kirribili LodgeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D18C30B2172DF8A009B63F0 /* SelfCheckInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfCheckInViewController.h; sourceTree = "<group>"; };
+		2D18C30C2172DF8A009B63F0 /* SelfCheckInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfCheckInViewController.m; sourceTree = "<group>"; };
+		2D39376E217182ED0070535D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D39377321719BA30070535D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2D39377421719BA30070535D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2D3937772171B4A50070535D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2D3937782171B4A50070535D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2D799121217205E40052D9B7 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		2D799122217205E40052D9B7 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		2D79912421720FC10052D9B7 /* EditUserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditUserInfoViewController.h; sourceTree = "<group>"; };
+		2D79912521720FC10052D9B7 /* EditUserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditUserInfoViewController.m; sourceTree = "<group>"; };
+		2D79912721722D040052D9B7 /* BookNowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookNowViewController.h; sourceTree = "<group>"; };
+		2D79912821722D040052D9B7 /* BookNowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookNowViewController.m; sourceTree = "<group>"; };
+		2DC50512213E0AF6005DEFEB /* Kirribili Lodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kirribili Lodge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC50515213E0AF7005DEFEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DC50516213E0AF7005DEFEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DC50518213E0AF7005DEFEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DC50519213E0AF7005DEFEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DC5051C213E0AF7005DEFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DC5051E213E0AF9005DEFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DC50521213E0AF9005DEFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DC50523213E0AF9005DEFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC5052A213E0AF9005DEFEB /* Kirribili LodgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kirribili LodgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC5052E213E0AF9005DEFEB /* Kirribili_LodgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kirribili_LodgeTests.m; sourceTree = "<group>"; };
+		2DC50530213E0AF9005DEFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC50535213E0AF9005DEFEB /* Kirribili LodgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kirribili LodgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC50539213E0AF9005DEFEB /* Kirribili_LodgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kirribili_LodgeUITests.m; sourceTree = "<group>"; };
+		2DC5053B213E0AF9005DEFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFF7A0421659D38000B2661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44285535B3C614E642ECAA0E /* Pods-Kirribili LodgeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirribili LodgeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kirribili LodgeUITests/Pods-Kirribili LodgeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64F3D6CE30647BF4F64477C3 /* Pods-Kirribili LodgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirribili LodgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kirribili LodgeTests/Pods-Kirribili LodgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87D2445EB59DF35A2A3F8850 /* Pods-Kirribili Lodge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirribili Lodge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kirribili Lodge/Pods-Kirribili Lodge.release.xcconfig"; sourceTree = "<group>"; };
+		9EEF290B4F920059DF605300 /* libPods-Kirribili Lodge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kirribili Lodge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A155F786D33EFF2B7319FADD /* Pods-Kirribili Lodge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirribili Lodge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kirribili Lodge/Pods-Kirribili Lodge.debug.xcconfig"; sourceTree = "<group>"; };
+		AE31463381ADF910D1F4C544 /* Pods-Kirribili LodgeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kirribili LodgeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kirribili LodgeUITests/Pods-Kirribili LodgeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEDE9401C747155BB56AC59 /* libPods-Kirribili LodgeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kirribili LodgeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC5050F213E0AF6005DEFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC06AFDB2AC5621AE776F1BF /* libPods-Kirribili Lodge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC50527213E0AF9005DEFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37389DF6506204777439C2FA /* libPods-Kirribili LodgeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC50532213E0AF9005DEFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4EDC1CE231536DD8D33945 /* libPods-Kirribili LodgeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC50509213E0AF6005DEFEB = {
+			isa = PBXGroup;
+			children = (
+				2DC50514213E0AF6005DEFEB /* Kirribili Lodge */,
+				2DC5052D213E0AF9005DEFEB /* Kirribili LodgeTests */,
+				2DC50538213E0AF9005DEFEB /* Kirribili LodgeUITests */,
+				2DC50513213E0AF6005DEFEB /* Products */,
+				3B61800079952CE387106CAA /* Pods */,
+				FF33F6E96E5BFEB4C880F6C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DC50513213E0AF6005DEFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC50512213E0AF6005DEFEB /* Kirribili Lodge.app */,
+				2DC5052A213E0AF9005DEFEB /* Kirribili LodgeTests.xctest */,
+				2DC50535213E0AF9005DEFEB /* Kirribili LodgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DC50514213E0AF6005DEFEB /* Kirribili Lodge */ = {
+			isa = PBXGroup;
+			children = (
+				2D39376E217182ED0070535D /* main.m */,
+				2DFF7A0421659D38000B2661 /* GoogleService-Info.plist */,
+				2DC50515213E0AF7005DEFEB /* AppDelegate.h */,
+				2DC50516213E0AF7005DEFEB /* AppDelegate.m */,
+				2DC50518213E0AF7005DEFEB /* ViewController.h */,
+				2DC50519213E0AF7005DEFEB /* ViewController.m */,
+				2DC5051B213E0AF7005DEFEB /* Main.storyboard */,
+				2DC5051E213E0AF9005DEFEB /* Assets.xcassets */,
+				2DC50520213E0AF9005DEFEB /* LaunchScreen.storyboard */,
+				2DC50523213E0AF9005DEFEB /* Info.plist */,
+				2D39377321719BA30070535D /* LoginViewController.h */,
+				2D39377421719BA30070535D /* LoginViewController.m */,
+				2D3937772171B4A50070535D /* HomeViewController.h */,
+				2D3937782171B4A50070535D /* HomeViewController.m */,
+				2D799121217205E40052D9B7 /* PersonalInfoViewController.h */,
+				2D799122217205E40052D9B7 /* PersonalInfoViewController.m */,
+				2D79912421720FC10052D9B7 /* EditUserInfoViewController.h */,
+				2D79912521720FC10052D9B7 /* EditUserInfoViewController.m */,
+				2D79912721722D040052D9B7 /* BookNowViewController.h */,
+				2D79912821722D040052D9B7 /* BookNowViewController.m */,
+				2D18C30B2172DF8A009B63F0 /* SelfCheckInViewController.h */,
+				2D18C30C2172DF8A009B63F0 /* SelfCheckInViewController.m */,
+			);
+			path = "Kirribili Lodge";
+			sourceTree = "<group>";
+		};
+		2DC5052D213E0AF9005DEFEB /* Kirribili LodgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5052E213E0AF9005DEFEB /* Kirribili_LodgeTests.m */,
+				2DC50530213E0AF9005DEFEB /* Info.plist */,
+			);
+			path = "Kirribili LodgeTests";
+			sourceTree = "<group>";
+		};
+		2DC50538213E0AF9005DEFEB /* Kirribili LodgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DC50539213E0AF9005DEFEB /* Kirribili_LodgeUITests.m */,
+				2DC5053B213E0AF9005DEFEB /* Info.plist */,
+			);
+			path = "Kirribili LodgeUITests";
+			sourceTree = "<group>";
+		};
+		3B61800079952CE387106CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A155F786D33EFF2B7319FADD /* Pods-Kirribili Lodge.debug.xcconfig */,
+				87D2445EB59DF35A2A3F8850 /* Pods-Kirribili Lodge.release.xcconfig */,
+				64F3D6CE30647BF4F64477C3 /* Pods-Kirribili LodgeTests.debug.xcconfig */,
+				2497A5D448EE78948B84A67D /* Pods-Kirribili LodgeTests.release.xcconfig */,
+				AE31463381ADF910D1F4C544 /* Pods-Kirribili LodgeUITests.debug.xcconfig */,
+				44285535B3C614E642ECAA0E /* Pods-Kirribili LodgeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF33F6E96E5BFEB4C880F6C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EEF290B4F920059DF605300 /* libPods-Kirribili Lodge.a */,
+				BCEDE9401C747155BB56AC59 /* libPods-Kirribili LodgeTests.a */,
+				1AE442D4F5C9D64CF6B318C4 /* libPods-Kirribili LodgeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DC50511213E0AF6005DEFEB /* Kirribili Lodge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC5053E213E0AF9005DEFEB /* Build configuration list for PBXNativeTarget "Kirribili Lodge" */;
+			buildPhases = (
+				D623906A2EFADE587B17A3C8 /* [CP] Check Pods Manifest.lock */,
+				2DC5050E213E0AF6005DEFEB /* Sources */,
+				2DC5050F213E0AF6005DEFEB /* Frameworks */,
+				2DC50510213E0AF6005DEFEB /* Resources */,
+				A50B439DEF6115C84F9E1AA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kirribili Lodge";
+			productName = "Kirribili Lodge";
+			productReference = 2DC50512213E0AF6005DEFEB /* Kirribili Lodge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DC50529213E0AF9005DEFEB /* Kirribili LodgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC50541213E0AF9005DEFEB /* Build configuration list for PBXNativeTarget "Kirribili LodgeTests" */;
+			buildPhases = (
+				A6DF8244E87C7789F283718F /* [CP] Check Pods Manifest.lock */,
+				2DC50526213E0AF9005DEFEB /* Sources */,
+				2DC50527213E0AF9005DEFEB /* Frameworks */,
+				2DC50528213E0AF9005DEFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC5052C213E0AF9005DEFEB /* PBXTargetDependency */,
+			);
+			name = "Kirribili LodgeTests";
+			productName = "Kirribili LodgeTests";
+			productReference = 2DC5052A213E0AF9005DEFEB /* Kirribili LodgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DC50534213E0AF9005DEFEB /* Kirribili LodgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC50544213E0AF9005DEFEB /* Build configuration list for PBXNativeTarget "Kirribili LodgeUITests" */;
+			buildPhases = (
+				720B49B93916BD32DDBD316F /* [CP] Check Pods Manifest.lock */,
+				2DC50531213E0AF9005DEFEB /* Sources */,
+				2DC50532213E0AF9005DEFEB /* Frameworks */,
+				2DC50533213E0AF9005DEFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC50537213E0AF9005DEFEB /* PBXTargetDependency */,
+			);
+			name = "Kirribili LodgeUITests";
+			productName = "Kirribili LodgeUITests";
+			productReference = 2DC50535213E0AF9005DEFEB /* Kirribili LodgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DC5050A213E0AF6005DEFEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kaio Labre";
+				TargetAttributes = {
+					2DC50511213E0AF6005DEFEB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2DC50529213E0AF9005DEFEB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2DC50511213E0AF6005DEFEB;
+					};
+					2DC50534213E0AF9005DEFEB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2DC50511213E0AF6005DEFEB;
+					};
+				};
+			};
+			buildConfigurationList = 2DC5050D213E0AF6005DEFEB /* Build configuration list for PBXProject "Kirribili Lodge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DC50509213E0AF6005DEFEB;
+			productRefGroup = 2DC50513213E0AF6005DEFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DC50511213E0AF6005DEFEB /* Kirribili Lodge */,
+				2DC50529213E0AF9005DEFEB /* Kirribili LodgeTests */,
+				2DC50534213E0AF9005DEFEB /* Kirribili LodgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC50510213E0AF6005DEFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC50522213E0AF9005DEFEB /* LaunchScreen.storyboard in Resources */,
+				2DFF7A0521659D38000B2661 /* GoogleService-Info.plist in Resources */,
+				2DC5051F213E0AF9005DEFEB /* Assets.xcassets in Resources */,
+				2DC5051D213E0AF7005DEFEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC50528213E0AF9005DEFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC50533213E0AF9005DEFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		720B49B93916BD32DDBD316F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kirribili LodgeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50B439DEF6115C84F9E1AA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kirribili Lodge/Pods-Kirribili Lodge-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kirribili Lodge/Pods-Kirribili Lodge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DF8244E87C7789F283718F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kirribili LodgeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D623906A2EFADE587B17A3C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kirribili Lodge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DC5050E213E0AF6005DEFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D79912921722D040052D9B7 /* BookNowViewController.m in Sources */,
+				2D799123217205E40052D9B7 /* PersonalInfoViewController.m in Sources */,
+				2D79912621720FC10052D9B7 /* EditUserInfoViewController.m in Sources */,
+				2D39377521719BA30070535D /* LoginViewController.m in Sources */,
+				2DC5051A213E0AF7005DEFEB /* ViewController.m in Sources */,
+				2D39376F217182EE0070535D /* main.m in Sources */,
+				2D18C30D2172DF8A009B63F0 /* SelfCheckInViewController.m in Sources */,
+				2D3937792171B4A50070535D /* HomeViewController.m in Sources */,
+				2DC50517213E0AF7005DEFEB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC50526213E0AF9005DEFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC5052F213E0AF9005DEFEB /* Kirribili_LodgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC50531213E0AF9005DEFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC5053A213E0AF9005DEFEB /* Kirribili_LodgeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DC5052C213E0AF9005DEFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC50511213E0AF6005DEFEB /* Kirribili Lodge */;
+			targetProxy = 2DC5052B213E0AF9005DEFEB /* PBXContainerItemProxy */;
+		};
+		2DC50537213E0AF9005DEFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC50511213E0AF6005DEFEB /* Kirribili Lodge */;
+			targetProxy = 2DC50536213E0AF9005DEFEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DC5051B213E0AF7005DEFEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC5051C213E0AF7005DEFEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DC50520213E0AF9005DEFEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC50521213E0AF9005DEFEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DC5053C213E0AF9005DEFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DC5053D213E0AF9005DEFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DC5053F213E0AF9005DEFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A155F786D33EFF2B7319FADD /* Pods-Kirribili Lodge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JM7XLS3M;
+				INFOPLIST_FILE = "Kirribili Lodge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiolabre.kirribillilodge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DC50540213E0AF9005DEFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D2445EB59DF35A2A3F8850 /* Pods-Kirribili Lodge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JM7XLS3M;
+				INFOPLIST_FILE = "Kirribili Lodge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiolabre.kirribillilodge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DC50542213E0AF9005DEFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F3D6CE30647BF4F64477C3 /* Pods-Kirribili LodgeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JM7XLS3M;
+				INFOPLIST_FILE = "Kirribili LodgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-704.Kirribili-LodgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kirribili Lodge.app/Kirribili Lodge";
+			};
+			name = Debug;
+		};
+		2DC50543213E0AF9005DEFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2497A5D448EE78948B84A67D /* Pods-Kirribili LodgeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JM7XLS3M;
+				INFOPLIST_FILE = "Kirribili LodgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-704.Kirribili-LodgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kirribili Lodge.app/Kirribili Lodge";
+			};
+			name = Release;
+		};
+		2DC50545213E0AF9005DEFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE31463381ADF910D1F4C544 /* Pods-Kirribili LodgeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JM7XLS3M;
+				INFOPLIST_FILE = "Kirribili LodgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-704.Kirribili-LodgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kirribili Lodge";
+			};
+			name = Debug;
+		};
+		2DC50546213E0AF9005DEFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44285535B3C614E642ECAA0E /* Pods-Kirribili LodgeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JM7XLS3M;
+				INFOPLIST_FILE = "Kirribili LodgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-704.Kirribili-LodgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kirribili Lodge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC5050D213E0AF6005DEFEB /* Build configuration list for PBXProject "Kirribili Lodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC5053C213E0AF9005DEFEB /* Debug */,
+				2DC5053D213E0AF9005DEFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC5053E213E0AF9005DEFEB /* Build configuration list for PBXNativeTarget "Kirribili Lodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC5053F213E0AF9005DEFEB /* Debug */,
+				2DC50540213E0AF9005DEFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC50541213E0AF9005DEFEB /* Build configuration list for PBXNativeTarget "Kirribili LodgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC50542213E0AF9005DEFEB /* Debug */,
+				2DC50543213E0AF9005DEFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC50544213E0AF9005DEFEB /* Build configuration list for PBXNativeTarget "Kirribili LodgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC50545213E0AF9005DEFEB /* Debug */,
+				2DC50546213E0AF9005DEFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DC5050A213E0AF6005DEFEB /* Project object */;
+}
